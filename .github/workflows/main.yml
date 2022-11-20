@@ -28,4 +28,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ DOCKER_HUB_CARVINCHR }}/docker-dotnet-ci:latest
+          tags: carvinchr/docker-dotnet-ci:latest
